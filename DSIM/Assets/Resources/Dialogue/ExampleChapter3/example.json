@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "speaker": "Lina",
+    "text": "********",
+    "portrait": "Lina_Neutral",
+    "background": "Crossing",
+    "nextId": 2
+  },
+  {
+    "id": 2,
+    "speaker": "Tygo",
+    "text": "<><><><><>",
+    "portrait": "Tygo_Neutral",
+    "background": "Office",
+    "choices": [
+      {
+        "text": "No, lol.",
+        "nextId": 30
+      },
+      {
+        "text": "Yes, ok.",
+        "nextId": 40
+      },
+      {
+        "text": "*Hang up*",
+        "nextFile": "example2",
+        "nextId": -1
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "speaker": "Lina",
+    "text": "No, lol.",
+    "portrait": "Lina_Neutral",
+    "background": "Crossing",
+    "nextId": 31
+  },
+  {
+    "id": 31,
+    "speaker": "Tygo",
+    "text": "Rude...",
+    "portrait": "Tygo_Neutral",
+    "background": "Office",
+    "nextFile": "example2",
+    "nextId": -1
+  },
+  {
+    "id": 40,
+    "speaker": "Lina",
+    "text": "Alright, well...",
+    "portrait": "Lina_Neutral",
+    "background": "Crossing",
+    "nextId": 41
+  },
+  {
+    "id": 41,
+    "speaker": "Tygo",
+    "text": "WELL GO AHEAD THAN!",
+    "portrait": "Tygo_Angry",
+    "background": "Office",
+    "nextId": 42
+  },
+  {
+    "id": 42,
+    "speaker": "Lina",
+    "text": "I hit a car... but they were nice and helpful so now I'm okay and going to uni.",
+    "portrait": "Lina_Neutral",
+    "background": "Crossing",
+    "nextFile": "example2",
+    "nextId": -1
+  }
+]

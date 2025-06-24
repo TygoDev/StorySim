@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "speaker": "Tygo",
+    "text": "I'm pooping.",
+    "portrait": "Tygo_Angry",
+    "background": "Bathroom",
+    "nextId": 2,
+    "choices": [
+      {
+        "text": "Me too!",
+        "nextId": 2
+      },
+      {
+        "text": "Eww...",
+        "nextId": 3
+      },
+      {
+        "text": "*Hang up*",
+        "nextId": -1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "speaker": "Lina",
+    "text": "I'm also pooping!",
+    "portrait": "Lina_Neutral",
+    "background": "Bathroom",
+    "nextId": 5
+  },
+  {
+    "id": 3,
+    "speaker": "Lina",
+    "text": "That's disgusting, why are you telling me...",
+    "portrait": "Lina_Neutral",
+    "background": "Bathroom",
+    "nextId": 4
+  },
+  {
+    "id": 4,
+    "speaker": "Tygo",
+    "text": "Sorry...",
+    "portrait": "Tygo_Neutral",
+    "background": "Bathroom",
+    "nextId": -1
+  },
+  {
+    "id": 5,
+    "speaker": "Tygo",
+    "text": ":D",
+    "portrait": "Tygo_Neutral",
+    "background": "Bathroom",
+    "nextId": -1
+  }
+]
