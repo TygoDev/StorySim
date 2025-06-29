@@ -17,6 +17,7 @@
       },
       {
         "text": "*Hang up*",
+        "nextChapter": "ExampleChapter3",
         "nextId": -1
       }
     ]
@@ -43,6 +44,7 @@
     "text": "Sorry...",
     "portrait": "Tygo_Neutral",
     "background": "Bathroom",
+    "nextChapter": "ExampleChapter3",
     "nextId": -1
   },
   {
@@ -51,6 +53,7 @@
     "text": ":D",
     "portrait": "Tygo_Neutral",
     "background": "Bathroom",
+    "nextChapter": "ExampleChapter3",
     "nextId": -1
   }
 ]

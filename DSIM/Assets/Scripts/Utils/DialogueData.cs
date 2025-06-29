@@ -3,6 +3,7 @@ public class DialogueChoice
 {
     public string text;
     public string nextFile;
+    public string nextChapter;
     public int nextId;
 }
 
@@ -14,6 +15,7 @@ public class DialogueLine
     public string text;
     public string portrait;
     public string background;
+    public string nextChapter;
     public string nextFile;
     public int nextId;
     public DialogueChoice[] choices;

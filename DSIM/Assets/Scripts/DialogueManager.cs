@@ -166,7 +166,7 @@ public class DialogueManager : MonoBehaviour
                     }
                     else if (choice.nextId == -1)
                     {
-                        StartCoroutine(ReturnToChapterSelect(transitionWaitTime));
+                        StartCoroutine(ReturnToChapterSelect(choice.nextChapter, transitionWaitTime));
                     }
                     else
                     {
@@ -196,7 +196,7 @@ public class DialogueManager : MonoBehaviour
         }
         else if (currentId == -1)
         {
-            StartCoroutine(ReturnToChapterSelect(transitionWaitTime));
+            StartCoroutine(ReturnToChapterSelect(currentLine.nextChapter, transitionWaitTime));
         }
         else
         {
@@ -229,16 +229,15 @@ public class DialogueManager : MonoBehaviour
         isWaiting = false;
     }
 
-    IEnumerator ReturnToChapterSelect(float delaySeconds)
+    IEnumerator ReturnToChapterSelect(string nextChapter, float delaySeconds)
     {
         isWaiting = true;
         EndDialogue();
 
         yield return new WaitForSeconds(delaySeconds);
 
+        GameProgress.SaveProgress(nextChapter);
         SceneManager.LoadScene("ChapterSelection");
-
-        isWaiting = false;
     }
 
     IEnumerator TypeSentence(string sentence)
