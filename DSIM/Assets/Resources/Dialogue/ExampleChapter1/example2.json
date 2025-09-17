@@ -2,7 +2,7 @@
   {
     "id": 1,
     "speaker": "Tygo",
-    "text": "I'm pooping.",
+    "text": "I'm on the toilet.",
     "portrait": "Tygo_Angry",
     "background": "Bathroom",
     "nextId": 2,
@@ -25,7 +25,7 @@
   {
     "id": 2,
     "speaker": "Lina",
-    "text": "I'm also pooping!",
+    "text": "I'm also on the toilet!",
     "portrait": "Lina_Neutral",
     "background": "Bathroom",
     "nextId": 5
